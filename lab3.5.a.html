@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google - Simple Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        #logo {
+            width: 272px;
+            height: 92px;
+            margin: 80px 0;
+        }
+
+        #search-form {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        #search-input {
+            width: 500px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #search-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #footer {
+            margin-top: 50px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <img id="logo" src="google.jpg" alt="Google Logo">
+        
+        <form id="search-form" action="https://www.google.com/search" method="GET">
+            <input type="text" id="search-input" name="q" placeholder="Search Google">
+            <input type="submit" id="search-btn" value="Google Search">
+        </form>
+        
+        <p id="footer">© 2024 Google</p>
+    </div>
+
+</body>
+</html>

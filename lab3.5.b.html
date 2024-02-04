@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook - Simple Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #logo {
+            width: 150px;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        #form-container {
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        #login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #create-account {
+            margin-top: 20px;
+            color: #1877f2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <img id="logo" src="fb.jpg" alt="Facebook Logo">
+
+        <div id="form-container">
+            <form action="#">
+                <input type="text" name="email" placeholder="Email or Phone">
+                <input type="password" name="password" placeholder="Password">
+                <button id="login-btn" type="submit">Log In</button>
+            </form>
+            <a href="#" id="create-account">Create New Account</a>
+        </div>
+    </div>
+
+</body>
+</html>
